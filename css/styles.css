@@ -414,7 +414,13 @@ color: #2E2F42;
 }
 
 .footer-container{
-    background: var(--NAVY-BLUE, #2E2F42);
+    display: flex;
+    align-items: baseline;
+}
+
+
+.footer-part1{
+    margin-right: 120px;
 }
 
 .logo-footer{
@@ -457,7 +463,12 @@ color: #F4F4FD;
 }
 
 .text-social-list {
-    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px
 }
 
 .icon-footer {
