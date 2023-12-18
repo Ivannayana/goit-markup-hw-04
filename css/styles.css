@@ -212,9 +212,6 @@ color: #2E2F42;
 
 .advantages-container{
     background: #FFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .text-row{
@@ -231,9 +228,6 @@ color: #2E2F42;
     width: calc((100% - 72px) / 4);
 }
 
-.list:hover, .list:focus{
-    background-color: #404bbf;
-}
 
 .feature-border{
     display: flex;
@@ -279,15 +273,18 @@ color: #2E2F42;
 
 .team-container{
     background-color: #F4F4FD;
-
 }
 
 .item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
- .page-title {
+
+.page-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -352,6 +349,10 @@ color: #2E2F42;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.transit-link:hover, .transit-link:focus{
+    background-color: #404bbf;
 }
 
 .svg-team{
