@@ -524,6 +524,15 @@ color: #F4F4FD;
 .circle-icon {
     width: 40px;
     height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-icon:hover, .circle-icon:focus{
+    background-color: #31d0aa;
 }
 
 .svg-footer {
